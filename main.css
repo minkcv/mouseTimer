@@ -1,0 +1,39 @@
+html, body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#topleft, #topright, #bottomleft, #bottomright, #center {
+    position: absolute;
+}
+
+#topleft {
+    left: 0px;
+    top: 0px;
+}
+
+#topright {
+    right: 0px;
+    top: 0px;
+}
+
+#bottomleft {
+    left: 0px;
+    bottom: 0px;
+}
+
+#bottomright {
+    right: 0px;
+    bottom: 0px;
+}
+
+#center {
+    left: 50%;
+    top: 50%;
+}
+
+#wtfisthis {
+    text-align: center;
+    left: 50%;
+    top: 0px;
+}

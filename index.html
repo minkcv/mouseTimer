@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mouse Timer</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <button id='topleft' onclick='clicktopleft()'>TOP LEFT</button>
+    <button id='topright' onclick='clicktopright()'>TOP RIGHT</button>
+    <button id='bottomleft' onclick='clickbottomleft()'>BOTTOM LEFT</button>
+    <button id='bottomright' onclick='clickbottomright()'>BOTTOM RIGHT</button>
+
+    <div id='wtfisthis'>
+        This is a tool for measuring the time it takes to move the mouse between a center point and a random end point.<br>
+        It also counts the number of times you have done this and the average milliseconds of all repetitions. <br>
+        HOW TO USE: Click the start button and then the red button as fast as possible. Repeat.
+    </div>
+    <div id='center'>
+        TIME (ms):<span id='time'></span><br>
+        <button id='start' onclick='start()'>START</button><br>
+        REPS: <span id='reps'></span><br>
+        AVG: <span id='avg'></span>
+    </div>
+</body>
+</html>
